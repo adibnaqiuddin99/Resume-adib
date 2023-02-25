@@ -1,0 +1,56 @@
+.container {
+
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+    margin-top: 50px;
+	background-color: #282c34;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+	
+  
+}
+@media only screen and (max-width: 768px) {
+	.contact_container {
+		width: 100%;
+		grid-template-columns: 1fr;
+		padding: 3rem;
+		gap: 7rem;
+	}
+}
+
+.contact_container {
+    margin: 0 auto;
+    width: 90% ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto !important;
+    background-color: black;
+    color: white;
+    grid-column: 1 / -1;
+    gap: 6rem;
+ 
+}
+
+@media screen and (max-width: 760px){
+    .contact-container {
+      flex-direction: column;
+    }
+  }
+
+p {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+	.profile_container {
+		flex-direction: column;
+	}
+}

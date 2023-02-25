@@ -1,0 +1,40 @@
+.info {
+    width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+    margin-top: 50px;
+	background-color: white;
+    color: black;
+
+}
+
+li {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+hr {
+    height:3px;
+    border-width:0;
+    background-color:rgb(6, 194, 228);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+h3 {
+    color: rgb(2, 51, 107);
+}
+
+h4, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education, .soft_skills, .tech_skills, .personal_project, .extracurricular, .references {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
